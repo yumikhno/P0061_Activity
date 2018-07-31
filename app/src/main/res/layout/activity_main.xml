@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/indent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textViewActivityLifeCycle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Activity Life Cycle"
+        android:layout_marginBottom="@dimen/indent"
+        android:textSize="@dimen/textSize"/>
+
+    <TextView
+        android:id="@+id/textViewIntentData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Intent Data"
+        android:layout_marginBottom="@dimen/indent"
+        android:textSize="@dimen/textSize"/>
+
+    <TextView
+        android:id="@+id/textViewHW1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Homework #1"
+        android:layout_marginBottom="@dimen/indent"
+        android:textSize="@dimen/textSize"/>
+
+    <TextView
+        android:id="@+id/textViewHW2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Homework #2"
+        android:layout_marginBottom="@dimen/indent"
+        android:textSize="@dimen/textSize"/>
+
+    <TextView
+        android:id="@+id/textViewHW3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Homework #3"
+        android:layout_marginBottom="@dimen/indent"
+        android:textSize="@dimen/textSize"/>
+
+</LinearLayout>
